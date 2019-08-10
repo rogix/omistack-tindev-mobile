@@ -26,7 +26,7 @@ export default function Login({ navigation }) {
 
 		console.log(_id);
 
-		navigation.navigate('Main', { _id });
+		navigation.navigate('Main', { user: _id });
 	}
 
 	return (
